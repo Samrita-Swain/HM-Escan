@@ -92,10 +92,11 @@ section {
 }
 
 .intro_sec .h_bg-image {
-    background-size: cover;
+    /* background-size: cover; */
     background-position: center;
     min-height: 700px;
     position: relative;
+    background-repeat: no-repeat;
 }
 
 .ac_btn {

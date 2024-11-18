@@ -1,5 +1,5 @@
 #button_h:hover {
-  color: var(--primary-color)
+  color: var(--primary-color);
 }
 .ac_btn .ring {
   width: 100%;
@@ -34,4 +34,21 @@
   font-size: 50px;
   font-weight: 700;
   margin: 15px;
+  color: #000;
+}
+.background{
+  height: 65vh;
+  background-image: url(/src/assets/images/link-in-blink-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.black-cover{
+  background-color: #000000b3;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.text-center{
+  position: absolute;
 }

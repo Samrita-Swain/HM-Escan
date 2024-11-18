@@ -1,76 +1,40 @@
-const logoImageUrl  = "https://wipstertechnologies.com/HMSCAN/images.png";
+const logoImageUrl  = "https://i.im.ge/2024/11/18/zoYIb6.hm-scan-removebg-preview.png";
 const meta = {
-    title: "HM Scan",
+    title: "HM Escan",
     description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "Welcome To HM Escan",
     animated: {
         first: "I love coding",
         second: "I code cool websites",
         third: "I develop mobile apps",
     },
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    your_img_url: "https://i.im.ge/2024/11/18/zoYIb6.hm-scan-removebg-preview.png",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "Company Overview",
+    aboutme: "HM Escan Private Limited is an innovative technology company that operates within the healthcare sector, focusing on delivering advanced solutions in medical diagnostics, health management, and data-driven healthcare services. By integrating cutting-edge technology with a patient-centric approach, the company aims to enhance medical outcomes, streamline healthcare processes, and make healthcare more accessible and efficient.",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
-];
-
-const skills = [{
-        name: "Python",
-        value: 90,
-    },
-    {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
-        value: 80,
-    },
-    {
-        name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
-        value: 85,
-    },
-];
-
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-];
+const coreofferings = {
+    title: "Core Offerings",
+    aboutme: "HM Escan’s product suite is a harmonious blend of hardware and software solutions tailored to support healthcare professionals, patients, and institutions. The company's technology-driven approach prioritizes intelligent tools that facilitate better decision-making, improve diagnostics, and enhance patient care.",
+};
+const flagshipproduct = {
+    title: "Flagship Product",
+    aboutme: "Tretly The flagship product, Tretly, is pivotal in advancing healthcare practices. It supports remote monitoring, telemedicine, and personalized healthcare by leveraging data-driven technologies to optimize healthcare delivery. Tretly plays a key role in addressing the growing demand for smarter, more efficient patient care solutions, positioning HM Escan as a leader in innovative healthcare services.",
+};
+const commitment = {
+    title: "Commitment to Addressing Modern Healthcare Challenges",
+    aboutme: "HM Escan Private Limited is committed to tackling critical challenges in modern medical practice. Through its product offerings, the company aims to bridge gaps in diagnostics, enhance patient care, and empower health management with cutting-edge technology. This commitment underscores HM Escan’s vision of making high-quality healthcare both accessible and effective.",
+};
+const conclusion = {
+    title: "Conclusion",
+    aboutme: "As an innovative player in the healthcare sector, HM Escan Private Limited continues to leverage technology and a patient-centric philosophy to revolutionize medical diagnostics and health management. By focusing on intelligent, data-driven solutions, the company strives to transform the future of healthcare, enabling better outcomes and more streamlined processes for professionals and patients alike.",
+};
 
 const dataproducts = [{
         img: "https://wipstertechnologies.com/HMSCAN/images.png" ,
@@ -86,8 +50,7 @@ const dataproducts = [{
 
 const contactConfig = {
     YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    description: "If you would like more information about our products, please do not hesitate to contact us. Our team is ready to provide detailed information and answer any questions you may have.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_6c2gp6d",
@@ -102,13 +65,14 @@ const socialprofils = {
 };
 export {
     meta,
-    dataabout,
+    dataabout,    
     dataproducts,
-    worktimeline,
-    skills,
-    services,
     introdata,
     contactConfig,
     socialprofils,
     logoImageUrl,
+    coreofferings,
+    flagshipproduct,
+    commitment,    
+    conclusion,
 };

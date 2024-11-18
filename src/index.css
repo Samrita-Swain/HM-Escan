@@ -59,6 +59,8 @@ a:hover {
 p {
     word-break: break-word;
     hyphens: auto;
+    letter-spacing: 1px;
+    line-height: 27px;
 }
 
 .ovhidden {
@@ -93,4 +95,5 @@ code {
 
 .color_sec {
     color: var(--secondary-color);
+    letter-spacing: 1px;
 }
