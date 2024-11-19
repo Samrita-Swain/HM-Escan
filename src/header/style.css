@@ -205,6 +205,6 @@
     margin-right: 10px;
     text-decoration: none;
 }
-.logo{
-    background-color: transparent;
+.header{
+    background: var(--primary-color)
 }

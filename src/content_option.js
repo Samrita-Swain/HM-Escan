@@ -49,7 +49,7 @@ const dataproducts = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
+    YOUR_EMAIL: "tretly2021@gmail.com",
     description: "If you would like more information about our products, please do not hesitate to contact us. Our team is ready to provide detailed information and answer any questions you may have.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
