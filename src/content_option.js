@@ -53,8 +53,8 @@ const contactConfig = {
     description: "If you would like more information about our products, please do not hesitate to contact us. Our team is ready to provide detailed information and answer any questions you may have.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_6c2gp6d",
-    YOUR_TEMPLATE_ID: "template_gz3lysx",
+    YOUR_SERVICE_ID: "service_s2wd0i5",
+    YOUR_TEMPLATE_ID: "template_959b86d",
     YOUR_USER_ID: "gX6EjQHilFXYsqv1b",
 };
 
