@@ -1,17 +1,17 @@
 const logoImageUrl  = "https://i.im.ge/2024/11/18/zoYIb6.hm-scan-removebg-preview.png";
 const meta = {
     title: "HM Escan",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
 };
 
 const introdata = {
     title: "Welcome To HM Escan",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "We have some excellent products.",
+        second: "Launching products-Link In Blink",
+        third: "Ongoing products-Tretly",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "HM Escan was established on 19 July 2021. We are based out of Bikaner,Rajastan. Industries we provide Services,",
+    pointes:"1.Computer System Design & Related Sevices. 2.Professional, Scientific, and Technical Services.",
     your_img_url: "https://i.im.ge/2024/11/18/zoYIb6.hm-scan-removebg-preview.png",
 };
 
