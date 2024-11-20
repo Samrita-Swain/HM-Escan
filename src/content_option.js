@@ -37,12 +37,12 @@ const conclusion = {
 };
 
 const dataproducts = [{
-        img: "https://wipstertechnologies.com/HMSCAN/images.png" ,
+        img: "https://wipstertechnologies.com/img/images.png" ,
         description: "TRETLY",
         link: "/products/tretly",
     },
     {
-        img: "https://wipstertechnologies.com/HMSCAN/LINK%20IN%20BLINK.png",
+        img: "https://wipstertechnologies.com/img/LINK%20IN%20BLINK.png",
         description: "LINK IN BLINK",
         link: "/products/link_in_blink",
     },

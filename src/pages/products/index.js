@@ -21,20 +21,20 @@ export const Products = () => {
           </Col>
         </Row>
         <div className="mb-5 po_items_ho">
-          <Row>
-            {dataproducts.map((data, i) => {
-              return (
-                <Col key={i} lg={6} md={12} sm={12} className="mb-4">
-                  <div className="po_item">
-                    <img src={data.img} alt={data.description} className="img-fluid" />
-                    <div className="content">
-                      <p>{data.description}</p>
-                      <Link to={data.link}>view project</Link>
-                    </div>
-                  </div>
-                </Col>
-              )})}
-          </Row>
+        <Row>
+  {dataproducts.map((data, i) => (
+    <Col key={i} lg={6} md={6} sm={12} className="mb-4">
+      <div className="po_item">
+        <img src={data.img} alt={data.description} className="img-fluid" />
+        <div className="content">
+          <p>{data.description}</p>
+          <Link to={data.link}>view project</Link>
+        </div>
+      </div>
+    </Col>
+  ))}
+</Row>
+
           </div>    
 
                   </Container>
